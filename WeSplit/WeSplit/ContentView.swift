@@ -28,7 +28,7 @@ struct ContentView: View {
         var body: some View {
         NavigationStack{
             Form {
-                Section {
+                Section("Total amount") {
                     TextField("Amount", value: $checkAmount, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                         .keyboardType(.decimalPad)
                         .focused($amountIsFocused)
@@ -49,7 +49,7 @@ struct ContentView: View {
                     }
                 }
                 .pickerStyle(.segmented)
-                Section {
+                Section("Total amount per person") {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currency?.identifier ?? "USD"))
                         
                 }
