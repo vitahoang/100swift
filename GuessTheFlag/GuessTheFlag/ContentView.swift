@@ -88,7 +88,7 @@ struct ContentView: View {
         countries.shuffle()
         correctAnswer = Int.random(in: 0 ... 2)
     }
-    
+
     func resetGame() {
         score = 0
         questionAnswered = 0
