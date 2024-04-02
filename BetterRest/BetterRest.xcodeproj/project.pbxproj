@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A08DDB92BBB9A77002A486E /* BetterSleep.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5A08DDB82BBB9A77002A486E /* BetterSleep.mlmodel */; };
+		5A08DDBA2BBB9A77002A486E /* BetterSleep.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5A08DDB82BBB9A77002A486E /* BetterSleep.mlmodel */; };
+		5A08DDBB2BBB9A77002A486E /* BetterSleep.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 5A08DDB82BBB9A77002A486E /* BetterSleep.mlmodel */; };
 		5A4111312BBAD2F2008CCC35 /* BetterRestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4111302BBAD2F2008CCC35 /* BetterRestApp.swift */; };
 		5A4111332BBAD2F2008CCC35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4111322BBAD2F2008CCC35 /* ContentView.swift */; };
 		5A4111352BBAD2F3008CCC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A4111342BBAD2F3008CCC35 /* Assets.xcassets */; };
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A08DDB82BBB9A77002A486E /* BetterSleep.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = BetterSleep.mlmodel; sourceTree = "<group>"; };
 		5A41112D2BBAD2F2008CCC35 /* BetterRest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterRest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4111302BBAD2F2008CCC35 /* BetterRestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterRestApp.swift; sourceTree = "<group>"; };
 		5A4111322BBAD2F2008CCC35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			children = (
 				5A4111302BBAD2F2008CCC35 /* BetterRestApp.swift */,
 				5A4111322BBAD2F2008CCC35 /* ContentView.swift */,
+				5A08DDB82BBB9A77002A486E /* BetterSleep.mlmodel */,
 				5A4111342BBAD2F3008CCC35 /* Assets.xcassets */,
 				5A4111362BBAD2F3008CCC35 /* Preview Content */,
 			);
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A4111332BBAD2F2008CCC35 /* ContentView.swift in Sources */,
+				5A08DDB92BBB9A77002A486E /* BetterSleep.mlmodel in Sources */,
 				5A4111312BBAD2F2008CCC35 /* BetterRestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A08DDBA2BBB9A77002A486E /* BetterSleep.mlmodel in Sources */,
 				5A4111422BBAD2F3008CCC35 /* BetterRestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A41114E2BBAD2F3008CCC35 /* BetterRestUITestsLaunchTests.swift in Sources */,
+				5A08DDBB2BBB9A77002A486E /* BetterSleep.mlmodel in Sources */,
 				5A41114C2BBAD2F3008CCC35 /* BetterRestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
