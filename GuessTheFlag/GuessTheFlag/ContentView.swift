@@ -16,6 +16,14 @@ struct ContentView: View {
     @State private var score = 0
     @State private var questionAnswered = 0
     @State private var maxQuestion = 5
+    @State private var selectedAnswer = 0
+
+    // animation vars
+    @State var haveChosen = false
+    @State var animateOpacity = 0.0
+    @State var animateCorrect = 0.0
+    @State var animateNewGame = 0.0
+    @State var scaleAmount = 1.0
 
     var body: some View {
         ZStack {
@@ -40,12 +48,20 @@ struct ContentView: View {
                         HStack {
                             ForEach(0 ..< 3) { number in
                                 Button {
-                                    flagTapped(number)
+                                    withAnimation {
+                                        self.flagTapped(number)
+                                        self.selectedAnswer = number
+                                    }
                                 } label: {
-                                    Text(countries[number].flag)
+                                    Text(self.countries[number].flag)
                                         .clipShape(.capsule)
                                         .shadow(radius: 5)
                                 }
+                                .rotation3DEffect(.degrees(number == self.correctAnswer ? self.animateCorrect : 0), axis: (x: 0, y: 1, z: 0))
+                                .opacity(number != self.correctAnswer && haveChosen ? self.animateOpacity : 1)
+                                .scaleEffect(number != self.correctAnswer && haveChosen ? self.scaleAmount : 1)
+                                // animation for a new game
+                                .rotation3DEffect(.degrees(animateNewGame), axis: (x: 1, y: 0, z: 0))
                             }
                             .buttonStyle(.bordered)
                         }
@@ -74,19 +90,35 @@ struct ContentView: View {
 
     func flagTapped(_ number: Int) {
         questionAnswered += 1
+        haveChosen = true
         if number == correctAnswer {
             score += 1
             scoreTitle = "Correct"
+
+            withAnimation {
+                self.animateCorrect += 360
+                self.animateOpacity = 0.25
+            }
         } else {
             scoreTitle = "Wrong"
+            withAnimation(.easeIn(duration: 2.0)) {
+                self.animateOpacity = 0.25
+                self.scaleAmount -= 1
+            }
         }
-
-        showingScore = true
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            showingScore = true
+            haveChosen = false
+        }
     }
 
     func askQuestion() {
         countries.shuffle()
         correctAnswer = Int.random(in: 0 ... 2)
+        scaleAmount = 1.0
+        withAnimation {
+            animateNewGame += 360
+        }
     }
 
     func resetGame() {
