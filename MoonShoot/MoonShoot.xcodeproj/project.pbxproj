@@ -1,0 +1,1013 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AA09B962BBFF7DC00C7BFCC /* MoonShootApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09B952BBFF7DC00C7BFCC /* MoonShootApp.swift */; };
+		5AA09B982BBFF7DC00C7BFCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09B972BBFF7DC00C7BFCC /* ContentView.swift */; };
+		5AA09B9A2BBFF7DD00C7BFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09B992BBFF7DD00C7BFCC /* Assets.xcassets */; };
+		5AA09B9D2BBFF7DD00C7BFCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09B9C2BBFF7DD00C7BFCC /* Preview Assets.xcassets */; };
+		5AA09BA72BBFF7DE00C7BFCC /* MoonShootTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09BA62BBFF7DE00C7BFCC /* MoonShootTests.swift */; };
+		5AA09BB12BBFF7DE00C7BFCC /* MoonShootUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09BB02BBFF7DE00C7BFCC /* MoonShootUITests.swift */; };
+		5AA09BB32BBFF7DE00C7BFCC /* MoonShootUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09BB22BBFF7DE00C7BFCC /* MoonShootUITestsLaunchTests.swift */; };
+		5AA09BC42BC0071000C7BFCC /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09BC32BC0071000C7BFCC /* Astronaut.swift */; };
+		5AA09BC62BC0073900C7BFCC /* BundleDecodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09BC52BC0073900C7BFCC /* BundleDecodeExtension.swift */; };
+		5AA09BC82BC007AC00C7BFCC /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09BC72BC007AC00C7BFCC /* Mission.swift */; };
+		5AA09C222BC00A3B00C7BFCC /* aldrin@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BC92BC00A3B00C7BFCC /* aldrin@2x.jpg */; };
+		5AA09C232BC00A3B00C7BFCC /* aldrin@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BCA2BC00A3B00C7BFCC /* aldrin@3x.jpg */; };
+		5AA09C242BC00A3B00C7BFCC /* anders@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BCB2BC00A3B00C7BFCC /* anders@2x.jpg */; };
+		5AA09C252BC00A3B00C7BFCC /* anders@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BCC2BC00A3B00C7BFCC /* anders@3x.jpg */; };
+		5AA09C262BC00A3B00C7BFCC /* apollo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BCD2BC00A3B00C7BFCC /* apollo1@2x.png */; };
+		5AA09C272BC00A3B00C7BFCC /* apollo1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BCE2BC00A3B00C7BFCC /* apollo1@3x.png */; };
+		5AA09C282BC00A3B00C7BFCC /* apollo7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BCF2BC00A3B00C7BFCC /* apollo7@2x.png */; };
+		5AA09C292BC00A3B00C7BFCC /* apollo7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD02BC00A3B00C7BFCC /* apollo7@3x.png */; };
+		5AA09C2A2BC00A3B00C7BFCC /* apollo8@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD12BC00A3B00C7BFCC /* apollo8@2x.png */; };
+		5AA09C2B2BC00A3B00C7BFCC /* apollo8@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD22BC00A3B00C7BFCC /* apollo8@3x.png */; };
+		5AA09C2C2BC00A3B00C7BFCC /* apollo9@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD32BC00A3B00C7BFCC /* apollo9@2x.png */; };
+		5AA09C2D2BC00A3B00C7BFCC /* apollo9@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD42BC00A3B00C7BFCC /* apollo9@3x.png */; };
+		5AA09C2E2BC00A3B00C7BFCC /* apollo10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD52BC00A3B00C7BFCC /* apollo10@2x.png */; };
+		5AA09C2F2BC00A3B00C7BFCC /* apollo10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD62BC00A3B00C7BFCC /* apollo10@3x.png */; };
+		5AA09C302BC00A3B00C7BFCC /* apollo11@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD72BC00A3B00C7BFCC /* apollo11@2x.png */; };
+		5AA09C312BC00A3B00C7BFCC /* apollo11@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD82BC00A3B00C7BFCC /* apollo11@3x.png */; };
+		5AA09C322BC00A3B00C7BFCC /* apollo12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BD92BC00A3B00C7BFCC /* apollo12@2x.png */; };
+		5AA09C332BC00A3B00C7BFCC /* apollo12@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BDA2BC00A3B00C7BFCC /* apollo12@3x.png */; };
+		5AA09C342BC00A3B00C7BFCC /* apollo13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BDB2BC00A3B00C7BFCC /* apollo13@2x.png */; };
+		5AA09C352BC00A3B00C7BFCC /* apollo13@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BDC2BC00A3B00C7BFCC /* apollo13@3x.png */; };
+		5AA09C362BC00A3B00C7BFCC /* apollo14@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BDD2BC00A3B00C7BFCC /* apollo14@2x.png */; };
+		5AA09C372BC00A3B00C7BFCC /* apollo14@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BDE2BC00A3B00C7BFCC /* apollo14@3x.png */; };
+		5AA09C382BC00A3B00C7BFCC /* apollo15@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BDF2BC00A3B00C7BFCC /* apollo15@2x.png */; };
+		5AA09C392BC00A3B00C7BFCC /* apollo15@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE02BC00A3B00C7BFCC /* apollo15@3x.png */; };
+		5AA09C3A2BC00A3B00C7BFCC /* apollo16@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE12BC00A3B00C7BFCC /* apollo16@2x.png */; };
+		5AA09C3B2BC00A3B00C7BFCC /* apollo16@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE22BC00A3B00C7BFCC /* apollo16@3x.png */; };
+		5AA09C3C2BC00A3B00C7BFCC /* apollo17@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE32BC00A3B00C7BFCC /* apollo17@2x.png */; };
+		5AA09C3D2BC00A3B00C7BFCC /* apollo17@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE42BC00A3B00C7BFCC /* apollo17@3x.png */; };
+		5AA09C3E2BC00A3B00C7BFCC /* armstrong@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE52BC00A3B00C7BFCC /* armstrong@2x.jpg */; };
+		5AA09C3F2BC00A3B00C7BFCC /* armstrong@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE62BC00A3B00C7BFCC /* armstrong@3x.jpg */; };
+		5AA09C402BC00A3B00C7BFCC /* bean@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE72BC00A3B00C7BFCC /* bean@2x.jpg */; };
+		5AA09C412BC00A3B00C7BFCC /* bean@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE82BC00A3B00C7BFCC /* bean@3x.jpg */; };
+		5AA09C422BC00A3B00C7BFCC /* borman@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BE92BC00A3B00C7BFCC /* borman@2x.jpg */; };
+		5AA09C432BC00A3B00C7BFCC /* borman@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BEA2BC00A3B00C7BFCC /* borman@3x.jpg */; };
+		5AA09C442BC00A3B00C7BFCC /* cernan@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BEB2BC00A3B00C7BFCC /* cernan@2x.jpg */; };
+		5AA09C452BC00A3B00C7BFCC /* cernan@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BEC2BC00A3B00C7BFCC /* cernan@3x.jpg */; };
+		5AA09C462BC00A3B00C7BFCC /* chaffee@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BED2BC00A3B00C7BFCC /* chaffee@2x.jpg */; };
+		5AA09C472BC00A3B00C7BFCC /* chaffee@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BEE2BC00A3B00C7BFCC /* chaffee@3x.jpg */; };
+		5AA09C482BC00A3B00C7BFCC /* collins@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BEF2BC00A3B00C7BFCC /* collins@2x.jpg */; };
+		5AA09C492BC00A3B00C7BFCC /* collins@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF02BC00A3B00C7BFCC /* collins@3x.jpg */; };
+		5AA09C4A2BC00A3B00C7BFCC /* conrad@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF12BC00A3B00C7BFCC /* conrad@2x.jpg */; };
+		5AA09C4B2BC00A3B00C7BFCC /* conrad@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF22BC00A3B00C7BFCC /* conrad@3x.jpg */; };
+		5AA09C4C2BC00A3B00C7BFCC /* cunningham@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF32BC00A3B00C7BFCC /* cunningham@2x.jpg */; };
+		5AA09C4D2BC00A3B00C7BFCC /* cunningham@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF42BC00A3B00C7BFCC /* cunningham@3x.jpg */; };
+		5AA09C4E2BC00A3B00C7BFCC /* duke@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF52BC00A3B00C7BFCC /* duke@2x.jpg */; };
+		5AA09C4F2BC00A3B00C7BFCC /* duke@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF62BC00A3B00C7BFCC /* duke@3x.jpg */; };
+		5AA09C502BC00A3B00C7BFCC /* eisele@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF72BC00A3B00C7BFCC /* eisele@2x.jpg */; };
+		5AA09C512BC00A3B00C7BFCC /* eisele@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF82BC00A3B00C7BFCC /* eisele@3x.jpg */; };
+		5AA09C522BC00A3B00C7BFCC /* evans@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BF92BC00A3B00C7BFCC /* evans@2x.jpg */; };
+		5AA09C532BC00A3B00C7BFCC /* evans@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BFA2BC00A3B00C7BFCC /* evans@3x.jpg */; };
+		5AA09C542BC00A3B00C7BFCC /* gordon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BFB2BC00A3B00C7BFCC /* gordon@2x.jpg */; };
+		5AA09C552BC00A3B00C7BFCC /* gordon@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BFC2BC00A3B00C7BFCC /* gordon@3x.jpg */; };
+		5AA09C562BC00A3B00C7BFCC /* grissom@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BFD2BC00A3B00C7BFCC /* grissom@2x.jpg */; };
+		5AA09C572BC00A3B00C7BFCC /* grissom@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BFE2BC00A3B00C7BFCC /* grissom@3x.jpg */; };
+		5AA09C582BC00A3B00C7BFCC /* haise@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09BFF2BC00A3B00C7BFCC /* haise@2x.jpg */; };
+		5AA09C592BC00A3B00C7BFCC /* haise@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C002BC00A3B00C7BFCC /* haise@3x.jpg */; };
+		5AA09C5A2BC00A3B00C7BFCC /* irwin@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C012BC00A3B00C7BFCC /* irwin@2x.jpg */; };
+		5AA09C5B2BC00A3B00C7BFCC /* irwin@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C022BC00A3B00C7BFCC /* irwin@3x.jpg */; };
+		5AA09C5C2BC00A3B00C7BFCC /* lovell@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C032BC00A3B00C7BFCC /* lovell@2x.jpg */; };
+		5AA09C5D2BC00A3B00C7BFCC /* lovell@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C042BC00A3B00C7BFCC /* lovell@3x.jpg */; };
+		5AA09C5E2BC00A3B00C7BFCC /* mattingly@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C052BC00A3B00C7BFCC /* mattingly@2x.jpg */; };
+		5AA09C5F2BC00A3B00C7BFCC /* mattingly@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C062BC00A3B00C7BFCC /* mattingly@3x.jpg */; };
+		5AA09C602BC00A3B00C7BFCC /* mcdivitt@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C072BC00A3B00C7BFCC /* mcdivitt@2x.jpg */; };
+		5AA09C612BC00A3B00C7BFCC /* mcdivitt@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C082BC00A3B00C7BFCC /* mcdivitt@3x.jpg */; };
+		5AA09C622BC00A3B00C7BFCC /* mitchell@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C092BC00A3B00C7BFCC /* mitchell@2x.jpg */; };
+		5AA09C632BC00A3B00C7BFCC /* mitchell@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C0A2BC00A3B00C7BFCC /* mitchell@3x.jpg */; };
+		5AA09C642BC00A3B00C7BFCC /* roosa@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C0B2BC00A3B00C7BFCC /* roosa@2x.jpg */; };
+		5AA09C652BC00A3B00C7BFCC /* roosa@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C0C2BC00A3B00C7BFCC /* roosa@3x.jpg */; };
+		5AA09C662BC00A3B00C7BFCC /* schirra@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C0D2BC00A3B00C7BFCC /* schirra@2x.jpg */; };
+		5AA09C672BC00A3B00C7BFCC /* schirra@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C0E2BC00A3B00C7BFCC /* schirra@3x.jpg */; };
+		5AA09C682BC00A3B00C7BFCC /* schmitt@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C0F2BC00A3B00C7BFCC /* schmitt@2x.jpg */; };
+		5AA09C692BC00A3B00C7BFCC /* schmitt@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C102BC00A3B00C7BFCC /* schmitt@3x.jpg */; };
+		5AA09C6A2BC00A3B00C7BFCC /* schweickart@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C112BC00A3B00C7BFCC /* schweickart@2x.jpg */; };
+		5AA09C6B2BC00A3B00C7BFCC /* schweickart@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C122BC00A3B00C7BFCC /* schweickart@3x.jpg */; };
+		5AA09C6C2BC00A3B00C7BFCC /* scott@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C132BC00A3B00C7BFCC /* scott@2x.jpg */; };
+		5AA09C6D2BC00A3B00C7BFCC /* scott@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C142BC00A3B00C7BFCC /* scott@3x.jpg */; };
+		5AA09C6E2BC00A3B00C7BFCC /* shepard@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C152BC00A3B00C7BFCC /* shepard@2x.jpg */; };
+		5AA09C6F2BC00A3B00C7BFCC /* shepard@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C162BC00A3B00C7BFCC /* shepard@3x.jpg */; };
+		5AA09C702BC00A3B00C7BFCC /* stafford@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C172BC00A3B00C7BFCC /* stafford@2x.jpg */; };
+		5AA09C712BC00A3B00C7BFCC /* stafford@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C182BC00A3B00C7BFCC /* stafford@3x.jpg */; };
+		5AA09C722BC00A3B00C7BFCC /* swigert@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C192BC00A3B00C7BFCC /* swigert@2x.jpg */; };
+		5AA09C732BC00A3B00C7BFCC /* swigert@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C1A2BC00A3B00C7BFCC /* swigert@3x.jpg */; };
+		5AA09C742BC00A3B00C7BFCC /* white@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C1B2BC00A3B00C7BFCC /* white@2x.jpg */; };
+		5AA09C752BC00A3B00C7BFCC /* white@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C1C2BC00A3B00C7BFCC /* white@3x.jpg */; };
+		5AA09C762BC00A3B00C7BFCC /* worden@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C1D2BC00A3B00C7BFCC /* worden@2x.jpg */; };
+		5AA09C772BC00A3B00C7BFCC /* worden@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C1E2BC00A3B00C7BFCC /* worden@3x.jpg */; };
+		5AA09C782BC00A3B00C7BFCC /* young@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C1F2BC00A3B00C7BFCC /* young@2x.jpg */; };
+		5AA09C792BC00A3B00C7BFCC /* young@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C202BC00A3B00C7BFCC /* young@3x.jpg */; };
+		5AA09C7B2BC00CC000C7BFCC /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09C7A2BC00CC000C7BFCC /* MissionView.swift */; };
+		5AA09C7E2BC00E3B00C7BFCC /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C7C2BC00E3B00C7BFCC /* astronauts.json */; };
+		5AA09C7F2BC00E3B00C7BFCC /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09C7D2BC00E3B00C7BFCC /* missions.json */; };
+		5AA09C812BC0107B00C7BFCC /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09C802BC0107B00C7BFCC /* AstronautView.swift */; };
+		5AA09C832BC0119100C7BFCC /* Devider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09C822BC0119100C7BFCC /* Devider.swift */; };
+		5AA09C882BC0125600C7BFCC /* MissionViewTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09C872BC0125600C7BFCC /* MissionViewTitle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AA09BA32BBFF7DE00C7BFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA09B8A2BBFF7DC00C7BFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA09B912BBFF7DC00C7BFCC;
+			remoteInfo = MoonShoot;
+		};
+		5AA09BAD2BBFF7DE00C7BFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA09B8A2BBFF7DC00C7BFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA09B912BBFF7DC00C7BFCC;
+			remoteInfo = MoonShoot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5AA09B922BBFF7DC00C7BFCC /* MoonShoot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoonShoot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA09B952BBFF7DC00C7BFCC /* MoonShootApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShootApp.swift; sourceTree = "<group>"; };
+		5AA09B972BBFF7DC00C7BFCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AA09B992BBFF7DD00C7BFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA09B9C2BBFF7DD00C7BFCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AA09BA22BBFF7DE00C7BFCC /* MoonShootTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonShootTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA09BA62BBFF7DE00C7BFCC /* MoonShootTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShootTests.swift; sourceTree = "<group>"; };
+		5AA09BAC2BBFF7DE00C7BFCC /* MoonShootUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoonShootUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA09BB02BBFF7DE00C7BFCC /* MoonShootUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShootUITests.swift; sourceTree = "<group>"; };
+		5AA09BB22BBFF7DE00C7BFCC /* MoonShootUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonShootUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AA09BC32BC0071000C7BFCC /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		5AA09BC52BC0073900C7BFCC /* BundleDecodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleDecodeExtension.swift; sourceTree = "<group>"; };
+		5AA09BC72BC007AC00C7BFCC /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		5AA09BC92BC00A3B00C7BFCC /* aldrin@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aldrin@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BCA2BC00A3B00C7BFCC /* aldrin@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "aldrin@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BCB2BC00A3B00C7BFCC /* anders@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "anders@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BCC2BC00A3B00C7BFCC /* anders@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "anders@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BCD2BC00A3B00C7BFCC /* apollo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo1@2x.png"; sourceTree = "<group>"; };
+		5AA09BCE2BC00A3B00C7BFCC /* apollo1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo1@3x.png"; sourceTree = "<group>"; };
+		5AA09BCF2BC00A3B00C7BFCC /* apollo7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo7@2x.png"; sourceTree = "<group>"; };
+		5AA09BD02BC00A3B00C7BFCC /* apollo7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo7@3x.png"; sourceTree = "<group>"; };
+		5AA09BD12BC00A3B00C7BFCC /* apollo8@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo8@2x.png"; sourceTree = "<group>"; };
+		5AA09BD22BC00A3B00C7BFCC /* apollo8@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo8@3x.png"; sourceTree = "<group>"; };
+		5AA09BD32BC00A3B00C7BFCC /* apollo9@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo9@2x.png"; sourceTree = "<group>"; };
+		5AA09BD42BC00A3B00C7BFCC /* apollo9@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo9@3x.png"; sourceTree = "<group>"; };
+		5AA09BD52BC00A3B00C7BFCC /* apollo10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo10@2x.png"; sourceTree = "<group>"; };
+		5AA09BD62BC00A3B00C7BFCC /* apollo10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo10@3x.png"; sourceTree = "<group>"; };
+		5AA09BD72BC00A3B00C7BFCC /* apollo11@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo11@2x.png"; sourceTree = "<group>"; };
+		5AA09BD82BC00A3B00C7BFCC /* apollo11@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo11@3x.png"; sourceTree = "<group>"; };
+		5AA09BD92BC00A3B00C7BFCC /* apollo12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo12@2x.png"; sourceTree = "<group>"; };
+		5AA09BDA2BC00A3B00C7BFCC /* apollo12@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo12@3x.png"; sourceTree = "<group>"; };
+		5AA09BDB2BC00A3B00C7BFCC /* apollo13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo13@2x.png"; sourceTree = "<group>"; };
+		5AA09BDC2BC00A3B00C7BFCC /* apollo13@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo13@3x.png"; sourceTree = "<group>"; };
+		5AA09BDD2BC00A3B00C7BFCC /* apollo14@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo14@2x.png"; sourceTree = "<group>"; };
+		5AA09BDE2BC00A3B00C7BFCC /* apollo14@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo14@3x.png"; sourceTree = "<group>"; };
+		5AA09BDF2BC00A3B00C7BFCC /* apollo15@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo15@2x.png"; sourceTree = "<group>"; };
+		5AA09BE02BC00A3B00C7BFCC /* apollo15@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo15@3x.png"; sourceTree = "<group>"; };
+		5AA09BE12BC00A3B00C7BFCC /* apollo16@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo16@2x.png"; sourceTree = "<group>"; };
+		5AA09BE22BC00A3B00C7BFCC /* apollo16@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo16@3x.png"; sourceTree = "<group>"; };
+		5AA09BE32BC00A3B00C7BFCC /* apollo17@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo17@2x.png"; sourceTree = "<group>"; };
+		5AA09BE42BC00A3B00C7BFCC /* apollo17@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "apollo17@3x.png"; sourceTree = "<group>"; };
+		5AA09BE52BC00A3B00C7BFCC /* armstrong@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "armstrong@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BE62BC00A3B00C7BFCC /* armstrong@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "armstrong@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BE72BC00A3B00C7BFCC /* bean@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bean@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BE82BC00A3B00C7BFCC /* bean@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bean@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BE92BC00A3B00C7BFCC /* borman@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "borman@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BEA2BC00A3B00C7BFCC /* borman@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "borman@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BEB2BC00A3B00C7BFCC /* cernan@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cernan@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BEC2BC00A3B00C7BFCC /* cernan@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cernan@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BED2BC00A3B00C7BFCC /* chaffee@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chaffee@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BEE2BC00A3B00C7BFCC /* chaffee@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chaffee@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BEF2BC00A3B00C7BFCC /* collins@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "collins@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BF02BC00A3B00C7BFCC /* collins@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "collins@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BF12BC00A3B00C7BFCC /* conrad@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "conrad@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BF22BC00A3B00C7BFCC /* conrad@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "conrad@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BF32BC00A3B00C7BFCC /* cunningham@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cunningham@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BF42BC00A3B00C7BFCC /* cunningham@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cunningham@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BF52BC00A3B00C7BFCC /* duke@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duke@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BF62BC00A3B00C7BFCC /* duke@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "duke@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BF72BC00A3B00C7BFCC /* eisele@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eisele@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BF82BC00A3B00C7BFCC /* eisele@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "eisele@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BF92BC00A3B00C7BFCC /* evans@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evans@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BFA2BC00A3B00C7BFCC /* evans@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "evans@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BFB2BC00A3B00C7BFCC /* gordon@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gordon@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BFC2BC00A3B00C7BFCC /* gordon@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "gordon@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BFD2BC00A3B00C7BFCC /* grissom@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grissom@2x.jpg"; sourceTree = "<group>"; };
+		5AA09BFE2BC00A3B00C7BFCC /* grissom@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grissom@3x.jpg"; sourceTree = "<group>"; };
+		5AA09BFF2BC00A3B00C7BFCC /* haise@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "haise@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C002BC00A3B00C7BFCC /* haise@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "haise@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C012BC00A3B00C7BFCC /* irwin@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "irwin@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C022BC00A3B00C7BFCC /* irwin@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "irwin@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C032BC00A3B00C7BFCC /* lovell@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lovell@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C042BC00A3B00C7BFCC /* lovell@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lovell@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C052BC00A3B00C7BFCC /* mattingly@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mattingly@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C062BC00A3B00C7BFCC /* mattingly@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mattingly@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C072BC00A3B00C7BFCC /* mcdivitt@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mcdivitt@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C082BC00A3B00C7BFCC /* mcdivitt@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mcdivitt@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C092BC00A3B00C7BFCC /* mitchell@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mitchell@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C0A2BC00A3B00C7BFCC /* mitchell@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mitchell@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C0B2BC00A3B00C7BFCC /* roosa@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "roosa@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C0C2BC00A3B00C7BFCC /* roosa@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "roosa@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C0D2BC00A3B00C7BFCC /* schirra@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "schirra@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C0E2BC00A3B00C7BFCC /* schirra@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "schirra@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C0F2BC00A3B00C7BFCC /* schmitt@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "schmitt@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C102BC00A3B00C7BFCC /* schmitt@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "schmitt@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C112BC00A3B00C7BFCC /* schweickart@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "schweickart@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C122BC00A3B00C7BFCC /* schweickart@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "schweickart@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C132BC00A3B00C7BFCC /* scott@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scott@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C142BC00A3B00C7BFCC /* scott@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "scott@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C152BC00A3B00C7BFCC /* shepard@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shepard@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C162BC00A3B00C7BFCC /* shepard@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shepard@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C172BC00A3B00C7BFCC /* stafford@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stafford@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C182BC00A3B00C7BFCC /* stafford@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stafford@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C192BC00A3B00C7BFCC /* swigert@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "swigert@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C1A2BC00A3B00C7BFCC /* swigert@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "swigert@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C1B2BC00A3B00C7BFCC /* white@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C1C2BC00A3B00C7BFCC /* white@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "white@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C1D2BC00A3B00C7BFCC /* worden@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "worden@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C1E2BC00A3B00C7BFCC /* worden@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "worden@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C1F2BC00A3B00C7BFCC /* young@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "young@2x.jpg"; sourceTree = "<group>"; };
+		5AA09C202BC00A3B00C7BFCC /* young@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "young@3x.jpg"; sourceTree = "<group>"; };
+		5AA09C7A2BC00CC000C7BFCC /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		5AA09C7C2BC00E3B00C7BFCC /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		5AA09C7D2BC00E3B00C7BFCC /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		5AA09C802BC0107B00C7BFCC /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
+		5AA09C822BC0119100C7BFCC /* Devider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Devider.swift; sourceTree = "<group>"; };
+		5AA09C872BC0125600C7BFCC /* MissionViewTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewTitle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA09B8F2BBFF7DC00C7BFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09B9F2BBFF7DE00C7BFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09BA92BBFF7DE00C7BFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AA09B892BBFF7DC00C7BFCC = {
+			isa = PBXGroup;
+			children = (
+				5AA09B942BBFF7DC00C7BFCC /* MoonShoot */,
+				5AA09BA52BBFF7DE00C7BFCC /* MoonShootTests */,
+				5AA09BAF2BBFF7DE00C7BFCC /* MoonShootUITests */,
+				5AA09B932BBFF7DC00C7BFCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA09B932BBFF7DC00C7BFCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09B922BBFF7DC00C7BFCC /* MoonShoot.app */,
+				5AA09BA22BBFF7DE00C7BFCC /* MoonShootTests.xctest */,
+				5AA09BAC2BBFF7DE00C7BFCC /* MoonShootUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA09B942BBFF7DC00C7BFCC /* MoonShoot */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09B952BBFF7DC00C7BFCC /* MoonShootApp.swift */,
+				5AA09B972BBFF7DC00C7BFCC /* ContentView.swift */,
+				5AA09C7A2BC00CC000C7BFCC /* MissionView.swift */,
+				5AA09C802BC0107B00C7BFCC /* AstronautView.swift */,
+				5AA09C852BC011E800C7BFCC /* Models */,
+				5AA09C842BC011CB00C7BFCC /* Components */,
+				5AA09C862BC0121400C7BFCC /* Data */,
+				5AA09B992BBFF7DD00C7BFCC /* Assets.xcassets */,
+				5AA09C212BC00A3B00C7BFCC /* Images */,
+				5AA09B9B2BBFF7DD00C7BFCC /* Preview Content */,
+				5AA09BC52BC0073900C7BFCC /* BundleDecodeExtension.swift */,
+			);
+			path = MoonShoot;
+			sourceTree = "<group>";
+		};
+		5AA09B9B2BBFF7DD00C7BFCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09B9C2BBFF7DD00C7BFCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AA09BA52BBFF7DE00C7BFCC /* MoonShootTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09BA62BBFF7DE00C7BFCC /* MoonShootTests.swift */,
+			);
+			path = MoonShootTests;
+			sourceTree = "<group>";
+		};
+		5AA09BAF2BBFF7DE00C7BFCC /* MoonShootUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09BB02BBFF7DE00C7BFCC /* MoonShootUITests.swift */,
+				5AA09BB22BBFF7DE00C7BFCC /* MoonShootUITestsLaunchTests.swift */,
+			);
+			path = MoonShootUITests;
+			sourceTree = "<group>";
+		};
+		5AA09C212BC00A3B00C7BFCC /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09BC92BC00A3B00C7BFCC /* aldrin@2x.jpg */,
+				5AA09BCA2BC00A3B00C7BFCC /* aldrin@3x.jpg */,
+				5AA09BCB2BC00A3B00C7BFCC /* anders@2x.jpg */,
+				5AA09BCC2BC00A3B00C7BFCC /* anders@3x.jpg */,
+				5AA09BCD2BC00A3B00C7BFCC /* apollo1@2x.png */,
+				5AA09BCE2BC00A3B00C7BFCC /* apollo1@3x.png */,
+				5AA09BCF2BC00A3B00C7BFCC /* apollo7@2x.png */,
+				5AA09BD02BC00A3B00C7BFCC /* apollo7@3x.png */,
+				5AA09BD12BC00A3B00C7BFCC /* apollo8@2x.png */,
+				5AA09BD22BC00A3B00C7BFCC /* apollo8@3x.png */,
+				5AA09BD32BC00A3B00C7BFCC /* apollo9@2x.png */,
+				5AA09BD42BC00A3B00C7BFCC /* apollo9@3x.png */,
+				5AA09BD52BC00A3B00C7BFCC /* apollo10@2x.png */,
+				5AA09BD62BC00A3B00C7BFCC /* apollo10@3x.png */,
+				5AA09BD72BC00A3B00C7BFCC /* apollo11@2x.png */,
+				5AA09BD82BC00A3B00C7BFCC /* apollo11@3x.png */,
+				5AA09BD92BC00A3B00C7BFCC /* apollo12@2x.png */,
+				5AA09BDA2BC00A3B00C7BFCC /* apollo12@3x.png */,
+				5AA09BDB2BC00A3B00C7BFCC /* apollo13@2x.png */,
+				5AA09BDC2BC00A3B00C7BFCC /* apollo13@3x.png */,
+				5AA09BDD2BC00A3B00C7BFCC /* apollo14@2x.png */,
+				5AA09BDE2BC00A3B00C7BFCC /* apollo14@3x.png */,
+				5AA09BDF2BC00A3B00C7BFCC /* apollo15@2x.png */,
+				5AA09BE02BC00A3B00C7BFCC /* apollo15@3x.png */,
+				5AA09BE12BC00A3B00C7BFCC /* apollo16@2x.png */,
+				5AA09BE22BC00A3B00C7BFCC /* apollo16@3x.png */,
+				5AA09BE32BC00A3B00C7BFCC /* apollo17@2x.png */,
+				5AA09BE42BC00A3B00C7BFCC /* apollo17@3x.png */,
+				5AA09BE52BC00A3B00C7BFCC /* armstrong@2x.jpg */,
+				5AA09BE62BC00A3B00C7BFCC /* armstrong@3x.jpg */,
+				5AA09BE72BC00A3B00C7BFCC /* bean@2x.jpg */,
+				5AA09BE82BC00A3B00C7BFCC /* bean@3x.jpg */,
+				5AA09BE92BC00A3B00C7BFCC /* borman@2x.jpg */,
+				5AA09BEA2BC00A3B00C7BFCC /* borman@3x.jpg */,
+				5AA09BEB2BC00A3B00C7BFCC /* cernan@2x.jpg */,
+				5AA09BEC2BC00A3B00C7BFCC /* cernan@3x.jpg */,
+				5AA09BED2BC00A3B00C7BFCC /* chaffee@2x.jpg */,
+				5AA09BEE2BC00A3B00C7BFCC /* chaffee@3x.jpg */,
+				5AA09BEF2BC00A3B00C7BFCC /* collins@2x.jpg */,
+				5AA09BF02BC00A3B00C7BFCC /* collins@3x.jpg */,
+				5AA09BF12BC00A3B00C7BFCC /* conrad@2x.jpg */,
+				5AA09BF22BC00A3B00C7BFCC /* conrad@3x.jpg */,
+				5AA09BF32BC00A3B00C7BFCC /* cunningham@2x.jpg */,
+				5AA09BF42BC00A3B00C7BFCC /* cunningham@3x.jpg */,
+				5AA09BF52BC00A3B00C7BFCC /* duke@2x.jpg */,
+				5AA09BF62BC00A3B00C7BFCC /* duke@3x.jpg */,
+				5AA09BF72BC00A3B00C7BFCC /* eisele@2x.jpg */,
+				5AA09BF82BC00A3B00C7BFCC /* eisele@3x.jpg */,
+				5AA09BF92BC00A3B00C7BFCC /* evans@2x.jpg */,
+				5AA09BFA2BC00A3B00C7BFCC /* evans@3x.jpg */,
+				5AA09BFB2BC00A3B00C7BFCC /* gordon@2x.jpg */,
+				5AA09BFC2BC00A3B00C7BFCC /* gordon@3x.jpg */,
+				5AA09BFD2BC00A3B00C7BFCC /* grissom@2x.jpg */,
+				5AA09BFE2BC00A3B00C7BFCC /* grissom@3x.jpg */,
+				5AA09BFF2BC00A3B00C7BFCC /* haise@2x.jpg */,
+				5AA09C002BC00A3B00C7BFCC /* haise@3x.jpg */,
+				5AA09C012BC00A3B00C7BFCC /* irwin@2x.jpg */,
+				5AA09C022BC00A3B00C7BFCC /* irwin@3x.jpg */,
+				5AA09C032BC00A3B00C7BFCC /* lovell@2x.jpg */,
+				5AA09C042BC00A3B00C7BFCC /* lovell@3x.jpg */,
+				5AA09C052BC00A3B00C7BFCC /* mattingly@2x.jpg */,
+				5AA09C062BC00A3B00C7BFCC /* mattingly@3x.jpg */,
+				5AA09C072BC00A3B00C7BFCC /* mcdivitt@2x.jpg */,
+				5AA09C082BC00A3B00C7BFCC /* mcdivitt@3x.jpg */,
+				5AA09C092BC00A3B00C7BFCC /* mitchell@2x.jpg */,
+				5AA09C0A2BC00A3B00C7BFCC /* mitchell@3x.jpg */,
+				5AA09C0B2BC00A3B00C7BFCC /* roosa@2x.jpg */,
+				5AA09C0C2BC00A3B00C7BFCC /* roosa@3x.jpg */,
+				5AA09C0D2BC00A3B00C7BFCC /* schirra@2x.jpg */,
+				5AA09C0E2BC00A3B00C7BFCC /* schirra@3x.jpg */,
+				5AA09C0F2BC00A3B00C7BFCC /* schmitt@2x.jpg */,
+				5AA09C102BC00A3B00C7BFCC /* schmitt@3x.jpg */,
+				5AA09C112BC00A3B00C7BFCC /* schweickart@2x.jpg */,
+				5AA09C122BC00A3B00C7BFCC /* schweickart@3x.jpg */,
+				5AA09C132BC00A3B00C7BFCC /* scott@2x.jpg */,
+				5AA09C142BC00A3B00C7BFCC /* scott@3x.jpg */,
+				5AA09C152BC00A3B00C7BFCC /* shepard@2x.jpg */,
+				5AA09C162BC00A3B00C7BFCC /* shepard@3x.jpg */,
+				5AA09C172BC00A3B00C7BFCC /* stafford@2x.jpg */,
+				5AA09C182BC00A3B00C7BFCC /* stafford@3x.jpg */,
+				5AA09C192BC00A3B00C7BFCC /* swigert@2x.jpg */,
+				5AA09C1A2BC00A3B00C7BFCC /* swigert@3x.jpg */,
+				5AA09C1B2BC00A3B00C7BFCC /* white@2x.jpg */,
+				5AA09C1C2BC00A3B00C7BFCC /* white@3x.jpg */,
+				5AA09C1D2BC00A3B00C7BFCC /* worden@2x.jpg */,
+				5AA09C1E2BC00A3B00C7BFCC /* worden@3x.jpg */,
+				5AA09C1F2BC00A3B00C7BFCC /* young@2x.jpg */,
+				5AA09C202BC00A3B00C7BFCC /* young@3x.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5AA09C842BC011CB00C7BFCC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09C822BC0119100C7BFCC /* Devider.swift */,
+				5AA09C872BC0125600C7BFCC /* MissionViewTitle.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5AA09C852BC011E800C7BFCC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09BC32BC0071000C7BFCC /* Astronaut.swift */,
+				5AA09BC72BC007AC00C7BFCC /* Mission.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5AA09C862BC0121400C7BFCC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09C7C2BC00E3B00C7BFCC /* astronauts.json */,
+				5AA09C7D2BC00E3B00C7BFCC /* missions.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA09B912BBFF7DC00C7BFCC /* MoonShoot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA09BB62BBFF7DE00C7BFCC /* Build configuration list for PBXNativeTarget "MoonShoot" */;
+			buildPhases = (
+				5AA09B8E2BBFF7DC00C7BFCC /* Sources */,
+				5AA09B8F2BBFF7DC00C7BFCC /* Frameworks */,
+				5AA09B902BBFF7DC00C7BFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoonShoot;
+			productName = MoonShoot;
+			productReference = 5AA09B922BBFF7DC00C7BFCC /* MoonShoot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA09BA12BBFF7DE00C7BFCC /* MoonShootTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA09BB92BBFF7DE00C7BFCC /* Build configuration list for PBXNativeTarget "MoonShootTests" */;
+			buildPhases = (
+				5AA09B9E2BBFF7DE00C7BFCC /* Sources */,
+				5AA09B9F2BBFF7DE00C7BFCC /* Frameworks */,
+				5AA09BA02BBFF7DE00C7BFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA09BA42BBFF7DE00C7BFCC /* PBXTargetDependency */,
+			);
+			name = MoonShootTests;
+			productName = MoonShootTests;
+			productReference = 5AA09BA22BBFF7DE00C7BFCC /* MoonShootTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA09BAB2BBFF7DE00C7BFCC /* MoonShootUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA09BBC2BBFF7DE00C7BFCC /* Build configuration list for PBXNativeTarget "MoonShootUITests" */;
+			buildPhases = (
+				5AA09BA82BBFF7DE00C7BFCC /* Sources */,
+				5AA09BA92BBFF7DE00C7BFCC /* Frameworks */,
+				5AA09BAA2BBFF7DE00C7BFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA09BAE2BBFF7DE00C7BFCC /* PBXTargetDependency */,
+			);
+			name = MoonShootUITests;
+			productName = MoonShootUITests;
+			productReference = 5AA09BAC2BBFF7DE00C7BFCC /* MoonShootUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA09B8A2BBFF7DC00C7BFCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5AA09B912BBFF7DC00C7BFCC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5AA09BA12BBFF7DE00C7BFCC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5AA09B912BBFF7DC00C7BFCC;
+					};
+					5AA09BAB2BBFF7DE00C7BFCC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5AA09B912BBFF7DC00C7BFCC;
+					};
+				};
+			};
+			buildConfigurationList = 5AA09B8D2BBFF7DC00C7BFCC /* Build configuration list for PBXProject "MoonShoot" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA09B892BBFF7DC00C7BFCC;
+			productRefGroup = 5AA09B932BBFF7DC00C7BFCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA09B912BBFF7DC00C7BFCC /* MoonShoot */,
+				5AA09BA12BBFF7DE00C7BFCC /* MoonShootTests */,
+				5AA09BAB2BBFF7DE00C7BFCC /* MoonShootUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA09B902BBFF7DC00C7BFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA09C382BC00A3B00C7BFCC /* apollo15@2x.png in Resources */,
+				5AA09C622BC00A3B00C7BFCC /* mitchell@2x.jpg in Resources */,
+				5AA09C512BC00A3B00C7BFCC /* eisele@3x.jpg in Resources */,
+				5AA09C792BC00A3B00C7BFCC /* young@3x.jpg in Resources */,
+				5AA09C472BC00A3B00C7BFCC /* chaffee@3x.jpg in Resources */,
+				5AA09C4D2BC00A3B00C7BFCC /* cunningham@3x.jpg in Resources */,
+				5AA09C6E2BC00A3B00C7BFCC /* shepard@2x.jpg in Resources */,
+				5AA09C602BC00A3B00C7BFCC /* mcdivitt@2x.jpg in Resources */,
+				5AA09B9D2BBFF7DD00C7BFCC /* Preview Assets.xcassets in Resources */,
+				5AA09C492BC00A3B00C7BFCC /* collins@3x.jpg in Resources */,
+				5AA09C5B2BC00A3B00C7BFCC /* irwin@3x.jpg in Resources */,
+				5AA09C722BC00A3B00C7BFCC /* swigert@2x.jpg in Resources */,
+				5AA09C292BC00A3B00C7BFCC /* apollo7@3x.png in Resources */,
+				5AA09C552BC00A3B00C7BFCC /* gordon@3x.jpg in Resources */,
+				5AA09C272BC00A3B00C7BFCC /* apollo1@3x.png in Resources */,
+				5AA09C2A2BC00A3B00C7BFCC /* apollo8@2x.png in Resources */,
+				5AA09C5A2BC00A3B00C7BFCC /* irwin@2x.jpg in Resources */,
+				5AA09C5C2BC00A3B00C7BFCC /* lovell@2x.jpg in Resources */,
+				5AA09C772BC00A3B00C7BFCC /* worden@3x.jpg in Resources */,
+				5AA09C2F2BC00A3B00C7BFCC /* apollo10@3x.png in Resources */,
+				5AA09C4A2BC00A3B00C7BFCC /* conrad@2x.jpg in Resources */,
+				5AA09C3B2BC00A3B00C7BFCC /* apollo16@3x.png in Resources */,
+				5AA09C562BC00A3B00C7BFCC /* grissom@2x.jpg in Resources */,
+				5AA09C7E2BC00E3B00C7BFCC /* astronauts.json in Resources */,
+				5AA09C742BC00A3B00C7BFCC /* white@2x.jpg in Resources */,
+				5AA09C2E2BC00A3B00C7BFCC /* apollo10@2x.png in Resources */,
+				5AA09C6C2BC00A3B00C7BFCC /* scott@2x.jpg in Resources */,
+				5AA09C432BC00A3B00C7BFCC /* borman@3x.jpg in Resources */,
+				5AA09C682BC00A3B00C7BFCC /* schmitt@2x.jpg in Resources */,
+				5AA09C232BC00A3B00C7BFCC /* aldrin@3x.jpg in Resources */,
+				5AA09C782BC00A3B00C7BFCC /* young@2x.jpg in Resources */,
+				5AA09C252BC00A3B00C7BFCC /* anders@3x.jpg in Resources */,
+				5AA09C4C2BC00A3B00C7BFCC /* cunningham@2x.jpg in Resources */,
+				5AA09C752BC00A3B00C7BFCC /* white@3x.jpg in Resources */,
+				5AA09C702BC00A3B00C7BFCC /* stafford@2x.jpg in Resources */,
+				5AA09C322BC00A3B00C7BFCC /* apollo12@2x.png in Resources */,
+				5AA09C3E2BC00A3B00C7BFCC /* armstrong@2x.jpg in Resources */,
+				5AA09C5E2BC00A3B00C7BFCC /* mattingly@2x.jpg in Resources */,
+				5AA09C4F2BC00A3B00C7BFCC /* duke@3x.jpg in Resources */,
+				5AA09C592BC00A3B00C7BFCC /* haise@3x.jpg in Resources */,
+				5AA09C3C2BC00A3B00C7BFCC /* apollo17@2x.png in Resources */,
+				5AA09C222BC00A3B00C7BFCC /* aldrin@2x.jpg in Resources */,
+				5AA09C662BC00A3B00C7BFCC /* schirra@2x.jpg in Resources */,
+				5AA09C242BC00A3B00C7BFCC /* anders@2x.jpg in Resources */,
+				5AA09C612BC00A3B00C7BFCC /* mcdivitt@3x.jpg in Resources */,
+				5AA09C3A2BC00A3B00C7BFCC /* apollo16@2x.png in Resources */,
+				5AA09C392BC00A3B00C7BFCC /* apollo15@3x.png in Resources */,
+				5AA09C3F2BC00A3B00C7BFCC /* armstrong@3x.jpg in Resources */,
+				5AA09C262BC00A3B00C7BFCC /* apollo1@2x.png in Resources */,
+				5AA09C2B2BC00A3B00C7BFCC /* apollo8@3x.png in Resources */,
+				5AA09C2D2BC00A3B00C7BFCC /* apollo9@3x.png in Resources */,
+				5AA09C732BC00A3B00C7BFCC /* swigert@3x.jpg in Resources */,
+				5AA09C462BC00A3B00C7BFCC /* chaffee@2x.jpg in Resources */,
+				5AA09C572BC00A3B00C7BFCC /* grissom@3x.jpg in Resources */,
+				5AA09C672BC00A3B00C7BFCC /* schirra@3x.jpg in Resources */,
+				5AA09C542BC00A3B00C7BFCC /* gordon@2x.jpg in Resources */,
+				5AA09C422BC00A3B00C7BFCC /* borman@2x.jpg in Resources */,
+				5AA09C692BC00A3B00C7BFCC /* schmitt@3x.jpg in Resources */,
+				5AA09C502BC00A3B00C7BFCC /* eisele@2x.jpg in Resources */,
+				5AA09C6D2BC00A3B00C7BFCC /* scott@3x.jpg in Resources */,
+				5AA09C412BC00A3B00C7BFCC /* bean@3x.jpg in Resources */,
+				5AA09C352BC00A3B00C7BFCC /* apollo13@3x.png in Resources */,
+				5AA09C6F2BC00A3B00C7BFCC /* shepard@3x.jpg in Resources */,
+				5AA09C4E2BC00A3B00C7BFCC /* duke@2x.jpg in Resources */,
+				5AA09C282BC00A3B00C7BFCC /* apollo7@2x.png in Resources */,
+				5AA09C652BC00A3B00C7BFCC /* roosa@3x.jpg in Resources */,
+				5AA09C442BC00A3B00C7BFCC /* cernan@2x.jpg in Resources */,
+				5AA09C522BC00A3B00C7BFCC /* evans@2x.jpg in Resources */,
+				5AA09C362BC00A3B00C7BFCC /* apollo14@2x.png in Resources */,
+				5AA09B9A2BBFF7DD00C7BFCC /* Assets.xcassets in Resources */,
+				5AA09C7F2BC00E3B00C7BFCC /* missions.json in Resources */,
+				5AA09C302BC00A3B00C7BFCC /* apollo11@2x.png in Resources */,
+				5AA09C4B2BC00A3B00C7BFCC /* conrad@3x.jpg in Resources */,
+				5AA09C762BC00A3B00C7BFCC /* worden@2x.jpg in Resources */,
+				5AA09C372BC00A3B00C7BFCC /* apollo14@3x.png in Resources */,
+				5AA09C5D2BC00A3B00C7BFCC /* lovell@3x.jpg in Resources */,
+				5AA09C582BC00A3B00C7BFCC /* haise@2x.jpg in Resources */,
+				5AA09C532BC00A3B00C7BFCC /* evans@3x.jpg in Resources */,
+				5AA09C712BC00A3B00C7BFCC /* stafford@3x.jpg in Resources */,
+				5AA09C482BC00A3B00C7BFCC /* collins@2x.jpg in Resources */,
+				5AA09C6B2BC00A3B00C7BFCC /* schweickart@3x.jpg in Resources */,
+				5AA09C332BC00A3B00C7BFCC /* apollo12@3x.png in Resources */,
+				5AA09C3D2BC00A3B00C7BFCC /* apollo17@3x.png in Resources */,
+				5AA09C402BC00A3B00C7BFCC /* bean@2x.jpg in Resources */,
+				5AA09C312BC00A3B00C7BFCC /* apollo11@3x.png in Resources */,
+				5AA09C642BC00A3B00C7BFCC /* roosa@2x.jpg in Resources */,
+				5AA09C632BC00A3B00C7BFCC /* mitchell@3x.jpg in Resources */,
+				5AA09C342BC00A3B00C7BFCC /* apollo13@2x.png in Resources */,
+				5AA09C5F2BC00A3B00C7BFCC /* mattingly@3x.jpg in Resources */,
+				5AA09C452BC00A3B00C7BFCC /* cernan@3x.jpg in Resources */,
+				5AA09C6A2BC00A3B00C7BFCC /* schweickart@2x.jpg in Resources */,
+				5AA09C2C2BC00A3B00C7BFCC /* apollo9@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09BA02BBFF7DE00C7BFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09BAA2BBFF7DE00C7BFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA09B8E2BBFF7DC00C7BFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA09C812BC0107B00C7BFCC /* AstronautView.swift in Sources */,
+				5AA09BC42BC0071000C7BFCC /* Astronaut.swift in Sources */,
+				5AA09BC62BC0073900C7BFCC /* BundleDecodeExtension.swift in Sources */,
+				5AA09C832BC0119100C7BFCC /* Devider.swift in Sources */,
+				5AA09B982BBFF7DC00C7BFCC /* ContentView.swift in Sources */,
+				5AA09C882BC0125600C7BFCC /* MissionViewTitle.swift in Sources */,
+				5AA09BC82BC007AC00C7BFCC /* Mission.swift in Sources */,
+				5AA09B962BBFF7DC00C7BFCC /* MoonShootApp.swift in Sources */,
+				5AA09C7B2BC00CC000C7BFCC /* MissionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09B9E2BBFF7DE00C7BFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA09BA72BBFF7DE00C7BFCC /* MoonShootTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09BA82BBFF7DE00C7BFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA09BB12BBFF7DE00C7BFCC /* MoonShootUITests.swift in Sources */,
+				5AA09BB32BBFF7DE00C7BFCC /* MoonShootUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA09BA42BBFF7DE00C7BFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA09B912BBFF7DC00C7BFCC /* MoonShoot */;
+			targetProxy = 5AA09BA32BBFF7DE00C7BFCC /* PBXContainerItemProxy */;
+		};
+		5AA09BAE2BBFF7DE00C7BFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA09B912BBFF7DC00C7BFCC /* MoonShoot */;
+			targetProxy = 5AA09BAD2BBFF7DE00C7BFCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AA09BB42BBFF7DE00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA09BB52BBFF7DE00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA09BB72BBFF7DE00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoonShoot/Preview Content\"";
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vita.MoonShoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA09BB82BBFF7DE00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoonShoot/Preview Content\"";
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vita.MoonShoot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AA09BBA2BBFF7DE00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vita.MoonShootTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoonShoot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoonShoot";
+			};
+			name = Debug;
+		};
+		5AA09BBB2BBFF7DE00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vita.MoonShootTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoonShoot.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoonShoot";
+			};
+			name = Release;
+		};
+		5AA09BBD2BBFF7DE00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vita.MoonShootUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoonShoot;
+			};
+			name = Debug;
+		};
+		5AA09BBE2BBFF7DE00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vita.MoonShootUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoonShoot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA09B8D2BBFF7DC00C7BFCC /* Build configuration list for PBXProject "MoonShoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09BB42BBFF7DE00C7BFCC /* Debug */,
+				5AA09BB52BBFF7DE00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA09BB62BBFF7DE00C7BFCC /* Build configuration list for PBXNativeTarget "MoonShoot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09BB72BBFF7DE00C7BFCC /* Debug */,
+				5AA09BB82BBFF7DE00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA09BB92BBFF7DE00C7BFCC /* Build configuration list for PBXNativeTarget "MoonShootTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09BBA2BBFF7DE00C7BFCC /* Debug */,
+				5AA09BBB2BBFF7DE00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA09BBC2BBFF7DE00C7BFCC /* Build configuration list for PBXNativeTarget "MoonShootUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09BBD2BBFF7DE00C7BFCC /* Debug */,
+				5AA09BBE2BBFF7DE00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AA09B8A2BBFF7DC00C7BFCC /* Project object */;
+}
