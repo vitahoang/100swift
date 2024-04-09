@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A34C6C22BC2A8350036A3F3 /* ConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34C6BE2BC2A8350036A3F3 /* ConfettiView.swift */; };
+		5A34C6C32BC2A8350036A3F3 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34C6BF2BC2A8350036A3F3 /* ContentViewModel.swift */; };
+		5A34C6C62BC2A8640036A3F3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5A34C6C52BC2A8640036A3F3 /* Lottie */; };
+		5A34C6C82BC38D560036A3F3 /* HabitsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A34C6C72BC38D560036A3F3 /* HabitsSectionView.swift */; };
+		5A7E6B832BC15ABB006D8F74 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E6B822BC15ABB006D8F74 /* CheckBox.swift */; };
+		5A7E6B862BC17B2B006D8F74 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7E6B852BC17B2B006D8F74 /* AddTaskView.swift */; };
+		5A9A5CA22BC3D0AB006FAF4F /* DurationHourMinutePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A5CA12BC3D0AB006FAF4F /* DurationHourMinutePickerView.swift */; };
+		5A9A5CA42BC3D595006FAF4F /* StartEndTimePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A5CA32BC3D595006FAF4F /* StartEndTimePickerView.swift */; };
+		5A9A5CA62BC3DB7F006FAF4F /* confetti-1.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A5CA52BC3DB7F006FAF4F /* confetti-1.json */; };
+		5A9A5CA82BC3DDD0006FAF4F /* confetti-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 5A9A5CA72BC3DDD0006FAF4F /* confetti-2.json */; };
+		5A9A5CAA2BC41E9D006FAF4F /* EditKeyboardToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A5CA92BC41E9D006FAF4F /* EditKeyboardToolBarView.swift */; };
+		5A9A5CAC2BC42048006FAF4F /* DetailHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9A5CAB2BC42048006FAF4F /* DetailHabitView.swift */; };
+		5AA09CD22BC0396D00C7BFCC /* Duck_HabitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CD12BC0396D00C7BFCC /* Duck_HabitApp.swift */; };
+		5AA09CD42BC0396D00C7BFCC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CD32BC0396D00C7BFCC /* ContentView.swift */; };
+		5AA09CD62BC0396E00C7BFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09CD52BC0396E00C7BFCC /* Assets.xcassets */; };
+		5AA09CD92BC0396E00C7BFCC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AA09CD82BC0396E00C7BFCC /* Preview Assets.xcassets */; };
+		5AA09CE32BC0396E00C7BFCC /* Duck_HabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CE22BC0396E00C7BFCC /* Duck_HabitTests.swift */; };
+		5AA09CED2BC0396E00C7BFCC /* Duck_HabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CEC2BC0396E00C7BFCC /* Duck_HabitUITests.swift */; };
+		5AA09CEF2BC0396E00C7BFCC /* Duck_HabitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CEE2BC0396E00C7BFCC /* Duck_HabitUITestsLaunchTests.swift */; };
+		5AA09CFC2BC03E0D00C7BFCC /* DateStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CFB2BC03E0D00C7BFCC /* DateStack.swift */; };
+		5AA09CFE2BC03EC000C7BFCC /* HabitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CFD2BC03EC000C7BFCC /* HabitModel.swift */; };
+		5AA09D002BC155CD00C7BFCC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA09CFF2BC155CD00C7BFCC /* HomeView.swift */; };
+		5AE618232BC18E3200D20DE4 /* ElegantEmojiPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 5AE618222BC18E3200D20DE4 /* ElegantEmojiPicker */; };
+		5AE618272BC234C800D20DE4 /* EmojiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE618262BC234C800D20DE4 /* EmojiModel.swift */; };
+		5AE618292BC234F400D20DE4 /* EmojiPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE618282BC234F400D20DE4 /* EmojiPickerView.swift */; };
+		5AE6182C2BC235FA00D20DE4 /* Smile in Frameworks */ = {isa = PBXBuildFile; productRef = 5AE6182B2BC235FA00D20DE4 /* Smile */; };
+		5AE6182E2BC24BB400D20DE4 /* MultiDayOfWeekPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6182D2BC24BB400D20DE4 /* MultiDayOfWeekPicker.swift */; };
+		5AE618302BC25BF600D20DE4 /* emoji-en-US.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE6182F2BC25BF600D20DE4 /* emoji-en-US.json */; };
+		5AE618322BC263A800D20DE4 /* TaskTiltleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE618312BC263A800D20DE4 /* TaskTiltleView.swift */; };
+		5AE618342BC2648B00D20DE4 /* AddTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE618332BC2648B00D20DE4 /* AddTaskViewModel.swift */; };
+		5AE618372BC28AFC00D20DE4 /* SwipeCellKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5AE618362BC28AFC00D20DE4 /* SwipeCellKit */; };
+		5AE618392BC293BF00D20DE4 /* HabitListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE618382BC293BF00D20DE4 /* HabitListView.swift */; };
+		5AE6183B2BC2A5C000D20DE4 /* BlurBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE6183A2BC2A5C000D20DE4 /* BlurBackgroundView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AA09CDF2BC0396E00C7BFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA09CC62BC0396C00C7BFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA09CCD2BC0396D00C7BFCC;
+			remoteInfo = "Duck Habit";
+		};
+		5AA09CE92BC0396E00C7BFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AA09CC62BC0396C00C7BFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AA09CCD2BC0396D00C7BFCC;
+			remoteInfo = "Duck Habit";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A34C6BE2BC2A8350036A3F3 /* ConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfettiView.swift; sourceTree = "<group>"; };
+		5A34C6BF2BC2A8350036A3F3 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		5A34C6C72BC38D560036A3F3 /* HabitsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsSectionView.swift; sourceTree = "<group>"; };
+		5A7E6B822BC15ABB006D8F74 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		5A7E6B852BC17B2B006D8F74 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		5A9A5CA12BC3D0AB006FAF4F /* DurationHourMinutePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DurationHourMinutePickerView.swift; sourceTree = "<group>"; };
+		5A9A5CA32BC3D595006FAF4F /* StartEndTimePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartEndTimePickerView.swift; sourceTree = "<group>"; };
+		5A9A5CA52BC3DB7F006FAF4F /* confetti-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "confetti-1.json"; sourceTree = "<group>"; };
+		5A9A5CA72BC3DDD0006FAF4F /* confetti-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "confetti-2.json"; sourceTree = "<group>"; };
+		5A9A5CA92BC41E9D006FAF4F /* EditKeyboardToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditKeyboardToolBarView.swift; sourceTree = "<group>"; };
+		5A9A5CAB2BC42048006FAF4F /* DetailHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailHabitView.swift; sourceTree = "<group>"; };
+		5AA09CCE2BC0396D00C7BFCC /* Duck Habit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duck Habit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA09CD12BC0396D00C7BFCC /* Duck_HabitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck_HabitApp.swift; sourceTree = "<group>"; };
+		5AA09CD32BC0396D00C7BFCC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5AA09CD52BC0396E00C7BFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AA09CD82BC0396E00C7BFCC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5AA09CDE2BC0396E00C7BFCC /* Duck HabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duck HabitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA09CE22BC0396E00C7BFCC /* Duck_HabitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck_HabitTests.swift; sourceTree = "<group>"; };
+		5AA09CE82BC0396E00C7BFCC /* Duck HabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duck HabitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AA09CEC2BC0396E00C7BFCC /* Duck_HabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck_HabitUITests.swift; sourceTree = "<group>"; };
+		5AA09CEE2BC0396E00C7BFCC /* Duck_HabitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck_HabitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AA09CFB2BC03E0D00C7BFCC /* DateStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateStack.swift; sourceTree = "<group>"; };
+		5AA09CFD2BC03EC000C7BFCC /* HabitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModel.swift; sourceTree = "<group>"; };
+		5AA09CFF2BC155CD00C7BFCC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5AE618262BC234C800D20DE4 /* EmojiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiModel.swift; sourceTree = "<group>"; };
+		5AE618282BC234F400D20DE4 /* EmojiPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiPickerView.swift; sourceTree = "<group>"; };
+		5AE6182D2BC24BB400D20DE4 /* MultiDayOfWeekPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiDayOfWeekPicker.swift; sourceTree = "<group>"; };
+		5AE6182F2BC25BF600D20DE4 /* emoji-en-US.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "emoji-en-US.json"; sourceTree = "<group>"; };
+		5AE618312BC263A800D20DE4 /* TaskTiltleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTiltleView.swift; sourceTree = "<group>"; };
+		5AE618332BC2648B00D20DE4 /* AddTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskViewModel.swift; sourceTree = "<group>"; };
+		5AE618382BC293BF00D20DE4 /* HabitListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListView.swift; sourceTree = "<group>"; };
+		5AE6183A2BC2A5C000D20DE4 /* BlurBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurBackgroundView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AA09CCB2BC0396D00C7BFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE618232BC18E3200D20DE4 /* ElegantEmojiPicker in Frameworks */,
+				5AE618372BC28AFC00D20DE4 /* SwipeCellKit in Frameworks */,
+				5AE6182C2BC235FA00D20DE4 /* Smile in Frameworks */,
+				5A34C6C62BC2A8640036A3F3 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09CDB2BC0396E00C7BFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09CE52BC0396E00C7BFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A34C6C02BC2A8350036A3F3 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				5A9A5CA52BC3DB7F006FAF4F /* confetti-1.json */,
+				5A9A5CA72BC3DDD0006FAF4F /* confetti-2.json */,
+				5A34C6BE2BC2A8350036A3F3 /* ConfettiView.swift */,
+				5A34C6BF2BC2A8350036A3F3 /* ContentViewModel.swift */,
+			);
+			name = Animation;
+			path = ../../Edutainment/Edutainment/Animation;
+			sourceTree = "<group>";
+		};
+		5A7E6B812BC15A94006D8F74 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5AE618382BC293BF00D20DE4 /* HabitListView.swift */,
+				5AE618282BC234F400D20DE4 /* EmojiPickerView.swift */,
+				5AE618312BC263A800D20DE4 /* TaskTiltleView.swift */,
+				5AE6182D2BC24BB400D20DE4 /* MultiDayOfWeekPicker.swift */,
+				5AA09CFB2BC03E0D00C7BFCC /* DateStack.swift */,
+				5A7E6B822BC15ABB006D8F74 /* CheckBox.swift */,
+				5AE6183A2BC2A5C000D20DE4 /* BlurBackgroundView.swift */,
+				5A34C6C72BC38D560036A3F3 /* HabitsSectionView.swift */,
+				5A9A5CA12BC3D0AB006FAF4F /* DurationHourMinutePickerView.swift */,
+				5A9A5CA32BC3D595006FAF4F /* StartEndTimePickerView.swift */,
+				5A9A5CA92BC41E9D006FAF4F /* EditKeyboardToolBarView.swift */,
+				5A9A5CAB2BC42048006FAF4F /* DetailHabitView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5A7E6B842BC15BEF006D8F74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09CFD2BC03EC000C7BFCC /* HabitModel.swift */,
+				5AE618262BC234C800D20DE4 /* EmojiModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5AA09CC52BC0396C00C7BFCC = {
+			isa = PBXGroup;
+			children = (
+				5AA09CD02BC0396D00C7BFCC /* Duck Habit */,
+				5AA09CE12BC0396E00C7BFCC /* Duck HabitTests */,
+				5AA09CEB2BC0396E00C7BFCC /* Duck HabitUITests */,
+				5AA09CCF2BC0396D00C7BFCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AA09CCF2BC0396D00C7BFCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09CCE2BC0396D00C7BFCC /* Duck Habit.app */,
+				5AA09CDE2BC0396E00C7BFCC /* Duck HabitTests.xctest */,
+				5AA09CE82BC0396E00C7BFCC /* Duck HabitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AA09CD02BC0396D00C7BFCC /* Duck Habit */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09CD12BC0396D00C7BFCC /* Duck_HabitApp.swift */,
+				5AA09CD32BC0396D00C7BFCC /* ContentView.swift */,
+				5AA09CFF2BC155CD00C7BFCC /* HomeView.swift */,
+				5A7E6B852BC17B2B006D8F74 /* AddTaskView.swift */,
+				5AE618332BC2648B00D20DE4 /* AddTaskViewModel.swift */,
+				5A34C6C02BC2A8350036A3F3 /* Animation */,
+				5A7E6B842BC15BEF006D8F74 /* Models */,
+				5A7E6B812BC15A94006D8F74 /* Components */,
+				5AA09CD52BC0396E00C7BFCC /* Assets.xcassets */,
+				5AE6182F2BC25BF600D20DE4 /* emoji-en-US.json */,
+				5AA09CD72BC0396E00C7BFCC /* Preview Content */,
+			);
+			path = "Duck Habit";
+			sourceTree = "<group>";
+		};
+		5AA09CD72BC0396E00C7BFCC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09CD82BC0396E00C7BFCC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5AA09CE12BC0396E00C7BFCC /* Duck HabitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09CE22BC0396E00C7BFCC /* Duck_HabitTests.swift */,
+			);
+			path = "Duck HabitTests";
+			sourceTree = "<group>";
+		};
+		5AA09CEB2BC0396E00C7BFCC /* Duck HabitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AA09CEC2BC0396E00C7BFCC /* Duck_HabitUITests.swift */,
+				5AA09CEE2BC0396E00C7BFCC /* Duck_HabitUITestsLaunchTests.swift */,
+			);
+			path = "Duck HabitUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AA09CCD2BC0396D00C7BFCC /* Duck Habit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA09CF22BC0396E00C7BFCC /* Build configuration list for PBXNativeTarget "Duck Habit" */;
+			buildPhases = (
+				5AA09CCA2BC0396D00C7BFCC /* Sources */,
+				5AA09CCB2BC0396D00C7BFCC /* Frameworks */,
+				5AA09CCC2BC0396D00C7BFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duck Habit";
+			packageProductDependencies = (
+				5AE618222BC18E3200D20DE4 /* ElegantEmojiPicker */,
+				5AE6182B2BC235FA00D20DE4 /* Smile */,
+				5AE618362BC28AFC00D20DE4 /* SwipeCellKit */,
+				5A34C6C52BC2A8640036A3F3 /* Lottie */,
+			);
+			productName = "Duck Habit";
+			productReference = 5AA09CCE2BC0396D00C7BFCC /* Duck Habit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AA09CDD2BC0396E00C7BFCC /* Duck HabitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA09CF52BC0396E00C7BFCC /* Build configuration list for PBXNativeTarget "Duck HabitTests" */;
+			buildPhases = (
+				5AA09CDA2BC0396E00C7BFCC /* Sources */,
+				5AA09CDB2BC0396E00C7BFCC /* Frameworks */,
+				5AA09CDC2BC0396E00C7BFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA09CE02BC0396E00C7BFCC /* PBXTargetDependency */,
+			);
+			name = "Duck HabitTests";
+			productName = "Duck HabitTests";
+			productReference = 5AA09CDE2BC0396E00C7BFCC /* Duck HabitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AA09CE72BC0396E00C7BFCC /* Duck HabitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AA09CF82BC0396E00C7BFCC /* Build configuration list for PBXNativeTarget "Duck HabitUITests" */;
+			buildPhases = (
+				5AA09CE42BC0396E00C7BFCC /* Sources */,
+				5AA09CE52BC0396E00C7BFCC /* Frameworks */,
+				5AA09CE62BC0396E00C7BFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AA09CEA2BC0396E00C7BFCC /* PBXTargetDependency */,
+			);
+			name = "Duck HabitUITests";
+			productName = "Duck HabitUITests";
+			productReference = 5AA09CE82BC0396E00C7BFCC /* Duck HabitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AA09CC62BC0396C00C7BFCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5AA09CCD2BC0396D00C7BFCC = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5AA09CDD2BC0396E00C7BFCC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5AA09CCD2BC0396D00C7BFCC;
+					};
+					5AA09CE72BC0396E00C7BFCC = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5AA09CCD2BC0396D00C7BFCC;
+					};
+				};
+			};
+			buildConfigurationList = 5AA09CC92BC0396C00C7BFCC /* Build configuration list for PBXProject "Duck Habit" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AA09CC52BC0396C00C7BFCC;
+			packageReferences = (
+				5AE618212BC18E3200D20DE4 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */,
+				5AE6182A2BC235FA00D20DE4 /* XCRemoteSwiftPackageReference "Smile" */,
+				5AE618352BC28AFC00D20DE4 /* XCRemoteSwiftPackageReference "SwipeCellKit" */,
+				5A34C6C42BC2A8640036A3F3 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			productRefGroup = 5AA09CCF2BC0396D00C7BFCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AA09CCD2BC0396D00C7BFCC /* Duck Habit */,
+				5AA09CDD2BC0396E00C7BFCC /* Duck HabitTests */,
+				5AA09CE72BC0396E00C7BFCC /* Duck HabitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AA09CCC2BC0396D00C7BFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9A5CA82BC3DDD0006FAF4F /* confetti-2.json in Resources */,
+				5AE618302BC25BF600D20DE4 /* emoji-en-US.json in Resources */,
+				5A9A5CA62BC3DB7F006FAF4F /* confetti-1.json in Resources */,
+				5AA09CD92BC0396E00C7BFCC /* Preview Assets.xcassets in Resources */,
+				5AA09CD62BC0396E00C7BFCC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09CDC2BC0396E00C7BFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09CE62BC0396E00C7BFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AA09CCA2BC0396D00C7BFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA09CFE2BC03EC000C7BFCC /* HabitModel.swift in Sources */,
+				5AE6183B2BC2A5C000D20DE4 /* BlurBackgroundView.swift in Sources */,
+				5A7E6B862BC17B2B006D8F74 /* AddTaskView.swift in Sources */,
+				5A34C6C32BC2A8350036A3F3 /* ContentViewModel.swift in Sources */,
+				5A9A5CA42BC3D595006FAF4F /* StartEndTimePickerView.swift in Sources */,
+				5A9A5CA22BC3D0AB006FAF4F /* DurationHourMinutePickerView.swift in Sources */,
+				5AE618342BC2648B00D20DE4 /* AddTaskViewModel.swift in Sources */,
+				5A34C6C22BC2A8350036A3F3 /* ConfettiView.swift in Sources */,
+				5AE618292BC234F400D20DE4 /* EmojiPickerView.swift in Sources */,
+				5A34C6C82BC38D560036A3F3 /* HabitsSectionView.swift in Sources */,
+				5A9A5CAA2BC41E9D006FAF4F /* EditKeyboardToolBarView.swift in Sources */,
+				5AA09CFC2BC03E0D00C7BFCC /* DateStack.swift in Sources */,
+				5A7E6B832BC15ABB006D8F74 /* CheckBox.swift in Sources */,
+				5AA09CD42BC0396D00C7BFCC /* ContentView.swift in Sources */,
+				5A9A5CAC2BC42048006FAF4F /* DetailHabitView.swift in Sources */,
+				5AA09D002BC155CD00C7BFCC /* HomeView.swift in Sources */,
+				5AE618322BC263A800D20DE4 /* TaskTiltleView.swift in Sources */,
+				5AA09CD22BC0396D00C7BFCC /* Duck_HabitApp.swift in Sources */,
+				5AE6182E2BC24BB400D20DE4 /* MultiDayOfWeekPicker.swift in Sources */,
+				5AE618272BC234C800D20DE4 /* EmojiModel.swift in Sources */,
+				5AE618392BC293BF00D20DE4 /* HabitListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09CDA2BC0396E00C7BFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA09CE32BC0396E00C7BFCC /* Duck_HabitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA09CE42BC0396E00C7BFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA09CEF2BC0396E00C7BFCC /* Duck_HabitUITestsLaunchTests.swift in Sources */,
+				5AA09CED2BC0396E00C7BFCC /* Duck_HabitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AA09CE02BC0396E00C7BFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA09CCD2BC0396D00C7BFCC /* Duck Habit */;
+			targetProxy = 5AA09CDF2BC0396E00C7BFCC /* PBXContainerItemProxy */;
+		};
+		5AA09CEA2BC0396E00C7BFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AA09CCD2BC0396D00C7BFCC /* Duck Habit */;
+			targetProxy = 5AA09CE92BC0396E00C7BFCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5AA09CF02BC0396E00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AA09CF12BC0396E00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AA09CF32BC0396E00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duck Habit/Preview Content\"";
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vita.Duck-Habit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AA09CF42BC0396E00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duck Habit/Preview Content\"";
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vita.Duck-Habit";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AA09CF62BC0396E00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vita.Duck-HabitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duck Habit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duck Habit";
+			};
+			name = Debug;
+		};
+		5AA09CF72BC0396E00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vita.Duck-HabitTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duck Habit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duck Habit";
+			};
+			name = Release;
+		};
+		5AA09CF92BC0396E00C7BFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vita.Duck-HabitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Duck Habit";
+			};
+			name = Debug;
+		};
+		5AA09CFA2BC0396E00C7BFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XH5QQL5ZUJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vita.Duck-HabitUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Duck Habit";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AA09CC92BC0396C00C7BFCC /* Build configuration list for PBXProject "Duck Habit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09CF02BC0396E00C7BFCC /* Debug */,
+				5AA09CF12BC0396E00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA09CF22BC0396E00C7BFCC /* Build configuration list for PBXNativeTarget "Duck Habit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09CF32BC0396E00C7BFCC /* Debug */,
+				5AA09CF42BC0396E00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA09CF52BC0396E00C7BFCC /* Build configuration list for PBXNativeTarget "Duck HabitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09CF62BC0396E00C7BFCC /* Debug */,
+				5AA09CF72BC0396E00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AA09CF82BC0396E00C7BFCC /* Build configuration list for PBXNativeTarget "Duck HabitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AA09CF92BC0396E00C7BFCC /* Debug */,
+				5AA09CFA2BC0396E00C7BFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A34C6C42BC2A8640036A3F3 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.2;
+			};
+		};
+		5AE618212BC18E3200D20DE4 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Finalet/Elegant-Emoji-Picker";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		5AE6182A2BC235FA00D20DE4 /* XCRemoteSwiftPackageReference "Smile" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onmyway133/Smile.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		5AE618352BC28AFC00D20DE4 /* XCRemoteSwiftPackageReference "SwipeCellKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwipeCellKit/SwipeCellKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A34C6C52BC2A8640036A3F3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A34C6C42BC2A8640036A3F3 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+		5AE618222BC18E3200D20DE4 /* ElegantEmojiPicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AE618212BC18E3200D20DE4 /* XCRemoteSwiftPackageReference "Elegant-Emoji-Picker" */;
+			productName = ElegantEmojiPicker;
+		};
+		5AE6182B2BC235FA00D20DE4 /* Smile */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AE6182A2BC235FA00D20DE4 /* XCRemoteSwiftPackageReference "Smile" */;
+			productName = Smile;
+		};
+		5AE618362BC28AFC00D20DE4 /* SwipeCellKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AE618352BC28AFC00D20DE4 /* XCRemoteSwiftPackageReference "SwipeCellKit" */;
+			productName = SwipeCellKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5AA09CC62BC0396C00C7BFCC /* Project object */;
+}
